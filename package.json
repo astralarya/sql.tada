@@ -1,0 +1,23 @@
+{
+  "name": "sql.tada",
+  "version": "0.0.0",
+  "description": "🪄 Magical SQL query engine for TypeScript",
+  "main": "./dist/sql-tada",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astralarya/sql.tada.git"
+  },
+  "keywords": [
+    "sql",
+    "typescript"
+  ],
+  "author": "Mara Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astralarya/sql.tada/issues"
+  },
+  "homepage": "https://github.com/astralarya/sql.tada#readme"
+}
