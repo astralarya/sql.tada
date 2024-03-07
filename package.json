@@ -2,9 +2,14 @@
   "name": "sql.tada",
   "version": "0.0.0",
   "description": "🪄 Magical SQL query engine for TypeScript",
-  "main": "./dist/sql-tada",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
   "scripts": {
-    "test": "yarn test"
+    "test": "yarn test",
+    "build": "yarn tsc"
   },
   "repository": {
     "type": "git",
@@ -19,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/astralarya/sql.tada/issues"
   },
-  "homepage": "https://github.com/astralarya/sql.tada#readme"
+  "homepage": "https://github.com/astralarya/sql.tada#readme",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
 }
